@@ -4,6 +4,7 @@ Common kubectl commands
 ```
 kubectl get --help
 kubectl get no
+watch kubectl get no
 kubectl get po
 kubectl describe pod $POD_NAME
 kubectl get events
